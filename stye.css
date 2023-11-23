@@ -14,13 +14,20 @@ header {
     display: flex;
 }
 
+a {
+    color: #862B0D;
+    text-decoration: none;
+}
+
 .bar {
     display: flex;
     padding: 5px;
     gap: 5px;
+    background-color: #FFC95F;
+    color: #862B0D;
 }
 .search {
-    background-color: lightblue;
+    background-color: #FFC95F;
     align-items: right;
     justify-content: right;
     display: flex; 
@@ -32,7 +39,8 @@ main {
     flex: 8;
     display: flex;
     flex-direction: column;
-    background-color: lightpink;
+    background-color: #FFF9C9;
+    height: 100%;
 }
 
 .veg {
@@ -42,7 +50,6 @@ main {
     align-items: center;
     justify-content: center;
     position: ;
-
 }
 .veg_sub {
     border: 1px solid black;
@@ -53,12 +60,14 @@ main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-around;
 }
 
 footer {
     flex: 1;
     display: flex;
-    background-color: lightblue;
+    background-color: #FFC95F;
    /* position: absolute;
     bottom: 0;
     width: 100%;*/
@@ -68,9 +77,17 @@ img {
     width: 200px;
 }
 
-.products.products-1 {
+.products-1 {
     display: flex;
     border: 2px solid black;
-
+    border-radius: 5%;
+    align-items: center;
+    flex-direction: column;
+    width: 280px;
+    justify-content: center;
+    background-color: whitesmoke;
 }
 
+.Topic {
+
+}
