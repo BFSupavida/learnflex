@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    flex: 1;
+    display: flex;
+}
+
+.search {
+    background-color: lightblue;
+    align-items: center;
+    justify-content: center;
+    display: flex; 
+    gap: 10px;
+    width: 100%;
+}
+
+main {
+    flex: 8;
+    display: flex;
+    
+}
+
+.veg {
+    flex-wrap: wrap;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+
+}
+.veg_sub {
+    border: 1px solid black;
+    align-items: center;
+}
+
+footer {
+    flex: 1;
+    display: flex;
+    background-color: lightblue;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
